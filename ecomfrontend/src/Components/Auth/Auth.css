@@ -1,0 +1,112 @@
+.ContainerRegister {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -50px;
+}
+
+.WrapperRegister {
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+}
+
+.WrapperRegister > h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#myform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#myform input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+}
+
+#myform button {
+  width: 95%;
+  border: none;
+  padding: 15px 20px;
+  background-color: #158af7;
+  color: white;
+  cursor: pointer;
+  margin-top: 4%;
+}
+
+.ContainerLogin {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -50px;
+}
+
+.WrapperLogin {
+  width: 25%;
+  padding: 20px;
+  background-color: white;
+}
+
+.WrapperLogin > h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#myloginform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#myloginform > input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#myloginform > button {
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: #158af7;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 2%;
+  width: 120px;
+}
+/*# sourceMappingURL=Auth.css.map */
